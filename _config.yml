@@ -12,10 +12,10 @@ kramdown:
   enable_coderay: false
 
 author:
-    name: Автор
-    position: Должность
+    name: MIke mellior@
+    position: Home-page developer
     company:
         name: Яндекс
-        url:  http://yandex.ru/
+        url:  http://www.yandex.ru/
 
 progress: true
