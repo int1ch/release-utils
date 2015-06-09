@@ -70,7 +70,8 @@ cat debian/release_utils.conf
     package_version_type => 'MajorMinor'
 }
 ~~~
-~~~ 
+
+~~~
 yandex-digits-front (1.40) unstable; urgency=low
   * 93c4f3f124189d3c86af7ebaae0606656e3677dc | MIke NIkitin <mellior@yandex-team.ru> | Mon Jun 8 19:34:30 2015 +0300
       PASSP-11791: Поднять Капчу в MANе, ipv6only mode for finland, mixed mode for others
@@ -80,7 +81,7 @@ yandex-digits-front (1.40) unstable; urgency=low
 
 ## git-flow
 
-~~~ 
+~~~
 {
     flow => {
         dev => {
@@ -131,7 +132,7 @@ yandex-digits-front (1.40) unstable; urgency=low
 
 ## Под репозитории: изменение инклудов
 
-~~~ 
+~~~
 {
     watch_files          => [
         qr{^tmpl/skins},
@@ -158,7 +159,7 @@ yandex-digits-front (1.40) unstable; urgency=low
 
 ## Под репозитории: условное итерирование
 
-~~~ 
+~~~
 {
     watch_files          => [
         qr{\.(styl|css|js|png|jpg|jpeg|svg|gif|iddqd)$},
